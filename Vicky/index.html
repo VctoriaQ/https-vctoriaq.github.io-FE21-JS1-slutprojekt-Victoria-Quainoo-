@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="card">
+        <div class=card-top>
+            <div class="search">
+                <input id="search" type="text " class="search-bar" placeholder="Sök">
+                <button id="submit" onclick="submit()"> Submit</button>
+            </div>
+            <div class="weatherNow">
+                <h2 id="current-city" class="stad"></h2>
+                <h2 id="current-temp" class="tempN"></h2>
+                <div class="description"><img id="current-weather-image" src="" alt=""></div>
+                <div id="current-humidity" class="humidity"></div>
+                <div id="current-wind" class="wind"></div>
+            </div>
+        </div>
+        <div class="weather5Days">
+            <div class="weather1"> 
+                <div id="day1"></div>
+                <div class="description"><img class="forecast-images" id="day1-image" alt=""></div>
+                <div class="temp5">
+                    <div id="day1-max-temp" class="temp-high"></div>
+                    <div id="day1-min-temp" class="temp-low"></div>
+                </div>
+            </div>
+            <div class="weather2">
+                <div id="day2"></div>
+                <div class="description"><img class="forecast-images" id="day2-image" alt=""></div>
+                <div class="temp5">
+                    <div id="day2-max-temp" class="temp-high"></div>
+                    <div id="day2-min-temp" class="temp-low"></div>
+                </div>
+            </div>
+            <div class="weather3">
+                <div id="day3"></div>
+                <div class="description"><img class="forecast-images" id="day3-image" alt=""></div>
+                <div class="temp5">
+                    <div id="day3-max-temp" class="temp-high"></div>
+                    <div id="day3-min-temp" class="temp-low"></div>
+                </div>
+            </div>
+            <div class="weather4">
+                <div id="day4"></div>
+                <div class="description"><img class="forecast-images" id="day4-image"  alt=""></div>
+                <div class="temp5">
+                    <div id="day4-max-temp" class="temp-high"></div>
+                    <div id="day4-min-temp" class="temp-low"></div>
+                </div>
+            </div>
+            <div class="weather5">
+                <div id="day5"></div>
+                <div class="description"><img class="forecast-images" id="day5-image"  alt=""></div>
+                <div class="temp5">
+                    <div id="day5-max-temp" class="temp-high"></div>
+                    <div id="day5-min-temp" class="temp-low"></div>
+                </div>
+               
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
